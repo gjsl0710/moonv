@@ -7,6 +7,6 @@
     "a": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^12.4.1"
+    "discord.js": "^12.3.1"
   }
 }

@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = process.env.token
+const { prefix } = require("./config.json")
+const token = process.env.token;
 
 
 client.on('ready', () => {
@@ -8,8 +9,8 @@ client.on('ready', () => {
 });
 
 client.on('message', (message) => {
-    if(message.content === 'Hello') {
-        message.reply('Hello, world!')
+    if(message.content === '/ping') {
+        message.reply('pong')
     }
 });
 
