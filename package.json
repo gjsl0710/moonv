@@ -1,0 +1,12 @@
+{
+  "name": "discordmoonbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "a": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.4.1"
+  }
+}
