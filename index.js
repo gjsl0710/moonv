@@ -7,7 +7,6 @@ client.on('ready', () => {
     console.log('DISCORD BOT LOGIN');
 });
 
-
 client.on('message', (message) => {
     if(message.content === 'Hello') {
         message.reply('Hello, world!')
